@@ -1,0 +1,47 @@
+AIzaSyDBI6EwIsdX3fewYdvESe9Fk_s_YxRHiFE
+export API_KEY=AIzaSyDBI6EwIsdX3fewYdvESe9Fk_s_YxRHiFE
+$env:API_KEY = "AIzaSyDBI6EwIsdX3fewYdvESe9Fk_s_YxRHiFE"
+
+******************************************************
+
+{{
+  "cve_id": "CVE-2024-23709",
+  "exploitability_metrics": {
+    "AV": {
+      "value": "N",
+      "description": "The vulnerability can be exploited over the network. This means an attacker can exploit the vulnerability without having physical access to the device.",
+      "assessment": "Appropriate",
+      "remarks": ""
+    },
+    "AC": {
+      "value": "L",
+      "description": "The vulnerability requires low effort to exploit. This means an attacker can easily exploit the vulnerability with minimal technical expertise.",
+      "assessment": "Appropriate",
+      "remarks": ""
+    },
+    "PR": {
+      "value": "N",
+      "description": "The vulnerability does not require any special privileges to exploit. This means an attacker can exploit the vulnerability without having any special user account or permissions.",
+      "assessment": "Appropriate",
+      "remarks": ""
+    },
+    "UI": {
+      "value": "R",
+      "description": "The vulnerability requires user interaction to exploit. This means an attacker needs 
+to trick the user into performing a specific action to exploit the vulnerability.",
+      "assessment": "Appropriate",
+      "remarks": ""
+    },
+    "S": {
+      "value": "U",
+      "description": "The vulnerability affects the entire system. This means an attacker exploiting the vulnerability could potentially impact the entire device.",
+      "assessment": "Appropriate",
+      "remarks": ""
+    }
+  },
+  "overall_assessment": "The vulnerability is considered moderately exploitable. While it can be exploited 
+over the network and requires low effort, user interaction is required. This means the vulnerability would 
+likely be exploited via social engineering or by targeting specific users who are more likely to interact with malicious content.",
+  "remarks": "The vulnerability is assessed as High severity, indicating a significant potential for exploitation and impact. However, the exploitability metrics suggest that the vulnerability would require some effort and user interaction to exploit.  The advisory content indicates that this is a heap buffer overflow, 
+which is known to be a common class of vulnerabilities with various potential impacts. "
+}}

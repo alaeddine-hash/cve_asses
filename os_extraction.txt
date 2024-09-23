@@ -1,0 +1,33 @@
+Rapport sur l'Extraction Fiable d'Informations d'OS à partir des CVE et de leurs Liens d'Advisory
+
+
+
+1. Conception du Meilleur Prompt LLM
+des le debut il a été observé que le LLM, dans certains cas, génère des OS qui n'existent pas ou inclut des applications telles que WordPress dans le nom de l'OS. Cela se produit lorsque le modèle confond des applications ou des logiciels avec le système d'exploitation lui-même.
+Après de nombreuses itérations et ajustements du prompt, j'ai trouvé que le modèle est devenu plus fiable et finalement stable dans l'extraction précise des informations d'OS.
+
+Pour extraire efficacement les informations d'OS, le prompt suivant a été élaboré :
+
+« À partir du contenu du CVE et de ses liens d'advisory, extrayez les informations sur le système d'exploitation affecté, en vous assurant de n'inclure que les noms d'OS existants et en excluant les applications ou logiciels non pertinents. »
+
+2. Fiabilité du Prompt
+
+
+Pour l'extraction d'OS à partir du contenu du CVE et de ses liens d'advisory, c'est fiable à 100% lorsque l'information existe. Cela signifie que lorsque les détails de l'OS sont présents, le LLM parvient toujours à les extraire correctement.
+
+
+
+
+
+
+
+3. Problème de Disponibilité des Informations d'OS
+Mais ce qui pose un problème, c'est que sur 10 CVE en 2024, les informations d'OS ne sont disponibles que pour 4, et 3/10 en 2023 en vérifiant cela manuellement. Cela indique que l'absence d'informations explicites sur l'OS dans les CVE limite l'efficacité de l'extraction automatique.
+
+7. Exemple de CVE sans OS dans la Description
+[Place pour un exemple de CVE qui ne contient pas l'OS dans la description mais où l'information a été trouvée via le lien d'advisory]
+
+Cet exemple illustre l'importance des liens d'advisory pour compléter les informations manquantes dans la description du CVE.
+
+Conclusion
+En conclusion, avec un prompt soigneusement conçu et après plusieurs itérations, le LLM est capable d'extraire de manière fiable les informations sur l'OS à partir des CVE et de leurs liens d'advisory lorsque ces informations sont disponibles. Cependant, la disponibilité limitée des informations d'OS dans les CVE reste un défi significatif pour l'extraction automatique.

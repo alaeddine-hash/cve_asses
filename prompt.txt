@@ -1,0 +1,106 @@
+Task:
+
+As a cybersecurity expert specializing in vulnerability assessment and familiar with the Common Vulnerability Scoring System (CVSS) version 3.1, your task is to reassess the provided CVE based on its details and advisory links. You will perform a deep analysis of the vulnerability and determine the correct CVSS v3.1 base score and vector, ensuring accuracy in each metric according to the CVSS v3.1 specification.
+cve : {cve}
+
+Instructions:
+
+Read and Comprehend the CVE Details:
+
+Carefully read the CVE description and all advisory links provided.
+Understand the nature of the vulnerability, including:
+How it occurs.
+How it can be exploited.
+The potential impact on confidentiality, integrity, and availability.
+Analyze Each CVSS v3.1 Metric:
+
+For each of the following base metrics, determine the most appropriate value based on your analysis:
+
+Attack Vector (AV): Network (N), Adjacent (A), Local (L), Physical (P)
+Attack Complexity (AC): Low (L), High (H)
+Privileges Required (PR): None (N), Low (L), High (H)
+User Interaction (UI): None (N), Required (R)
+Scope (S): Unchanged (U), Changed (C)
+Confidentiality Impact (C): None (N), Low (L), High (H)
+Integrity Impact (I): None (N), Low (L), High (H)
+Availability Impact (A): None (N), Low (L), High (H)
+Justify Your Selection for Each Metric:
+
+Provide a clear and concise justification for each metric value.
+Base your reasoning on specific details from the CVE and advisories.
+Calculate the CVSS Base Score:
+
+Use the CVSS v3.1 calculator to compute the base score based on your selected metrics.
+Determine the severity rating (None, Low, Medium, High, Critical) based on the base score.
+Prepare Your Report:
+
+Present your findings in the following structured format:
+
+CVE ID: [Insert CVE ID]
+Summary: [Brief description of the vulnerability]
+Metric Analysis:
+Attack Vector (AV): Value - Justification
+Attack Complexity (AC): Value - Justification
+Privileges Required (PR): Value - Justification
+User Interaction (UI): Value - Justification
+Scope (S): Value - Justification
+Confidentiality Impact (C): Value - Justification
+Integrity Impact (I): Value - Justification
+Availability Impact (A): Value - Justification
+CVSS v3.1 Vector String: [Generated vector string]
+CVSS Base Score: [Score] (Severity)
+References:
+[List of advisory links and resources used]
+Additional Guidelines:
+
+Accuracy is crucial. Ensure each metric value aligns with the CVSS v3.1 specifications.
+Be objective. Base your analysis solely on the information provided in the CVE and advisories.
+Clarity and conciseness. Keep justifications clear and to the point.
+Do not include any unrelated information or personal opinions.
+Example Response:
+CVE ID: CVE-2023-12345
+
+Summary:
+
+A vulnerability in ExampleApp 2.1 allows remote attackers to execute arbitrary code due to improper input validation in the authentication module.
+
+Metric Analysis:
+
+Attack Vector (AV): Network (N) - The vulnerability can be exploited remotely over a network connection.
+Attack Complexity (AC): Low (L) - Exploitation does not require special conditions or circumstances.
+Privileges Required (PR): None (N) - Attackers do not need any privileges to exploit the vulnerability.
+User Interaction (UI): None (N) - No user interaction is required for exploitation.
+Scope (S): Unchanged (U) - The vulnerability affects resources managed by the same security authority.
+Confidentiality Impact (C): High (H) - Successful exploitation allows attackers to access sensitive data.
+Integrity Impact (I): High (H) - Attackers can modify or delete data.
+Availability Impact (A): High (H) - The vulnerability can be used to disrupt system availability.
+CVSS v3.1 Vector String:
+
+CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+
+CVSS Base Score: 9.8 (Critical)
+
+References:
+
+Vendor Advisory
+Security Bulletin
+Steps for You to Follow:
+Insert the CVE Details:
+
+Replace [Insert CVE ID] with the actual CVE identifier.
+Provide the CVE description and any relevant details.
+Include Advisory Links:
+
+List all advisory links associated with the CVE.
+Proceed with the Analysis:
+
+Go through each metric systematically.
+Use information from the CVE and advisories to justify your selections.
+Calculate and Present the CVSS Score:
+
+Use an official CVSS v3.1 calculator or reliable tool to compute the base score.
+Ensure the vector string matches your metric selections.
+Final Notes:
+Ensure Compliance: Your analysis should strictly adhere to the CVSS v3.1 guidelines.
+Double-Check Calculations: Verify the base score corresponds correctly with the vector string.
+Stay Objective: Focus on factual information derived from the CVE and advisories.

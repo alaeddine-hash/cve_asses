@@ -1,0 +1,2521 @@
+[
+  {
+    "id": 503905,
+    "cve_id": "CVE-2024-23709",
+    "source_identifier": "security@android.com",
+    "published": "2024-05-07T22:15:08.877000+01:00",
+    "last_modified": "2024-07-03T02:48:03.920000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "In multiple locations, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is needed for exploitation.",
+    "cvss_score_v3": 6.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-122\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://android.googlesource.com/platform/external/sonivox/+/3f798575d2d39cd190797427d13471d6e7ceae4c\", \"source\": \"security@android.com\"}, {\"url\": \"https://source.android.com/security/bulletin/2024-05-01\", \"source\": \"security@android.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "12",
+      "12L",
+      "13",
+      "14"
+    ],
+    "component_name": [
+      "Media Framework components"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504034,
+    "cve_id": "CVE-2024-25560",
+    "source_identifier": "f5sirt@f5.com",
+    "published": "2024-05-08T16:15:08.423000+01:00",
+    "last_modified": "2024-05-08T18:05:24.083000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\nWhen BIG-IP AFM is licensed and provisioned, undisclosed DNS traffic can cause the Traffic Management Microkernel (TMM) to terminate.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"f5sirt@f5.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-476\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://my.f5.com/manage/s/article/K000139037\", \"source\": \"f5sirt@f5.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "BIG-IP"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "BIG-IP AFM",
+      "Traffic Management Microkernel (TMM)"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504035,
+    "cve_id": "CVE-2024-26026",
+    "source_identifier": "f5sirt@f5.com",
+    "published": "2024-05-08T16:15:08.623000+01:00",
+    "last_modified": "2024-05-08T18:05:24.083000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\n\n\nAn SQL injection vulnerability exists in the BIG-IP Next Central Manager API (URI).\u00a0 Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated\n\n",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"f5sirt@f5.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-200\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://my.f5.com/manage/s/article/K000138733\", \"source\": \"f5sirt@f5.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "BIG-IP Next Central Manager API"
+    ],
+    "component_version": [],
+    "side": "server"
+  },
+  {
+    "id": 504047,
+    "cve_id": "CVE-2024-33608",
+    "source_identifier": "f5sirt@f5.com",
+    "published": "2024-05-08T16:15:10.930000+01:00",
+    "last_modified": "2024-05-08T18:05:24.083000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "When IPsec is configured on a virtual server, undisclosed traffic can cause the Traffic Management Microkernel (TMM) to terminate. \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"f5sirt@f5.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-824\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://my.f5.com/manage/s/article/K000138728\", \"source\": \"f5sirt@f5.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Traffic Management Microkernel (TMM)"
+    ],
+    "component_version": null,
+    "side": "server"
+  },
+  {
+    "id": 504095,
+    "cve_id": "CVE-2023-52383",
+    "source_identifier": "psirt@huawei.com",
+    "published": "2024-05-14T15:22:04.583000+01:00",
+    "last_modified": "2024-05-14T17:13:02.773000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Double-free vulnerability in the RSMC module\nImpact: Successful exploitation of this vulnerability will affect availability.",
+    "cvss_score_v3": 4.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@huawei.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-415\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://consumer.huawei.com/en/support/bulletin/2024/5/\", \"source\": \"psirt@huawei.com\"}, {\"url\": \"https://device.harmonyos.com/cn/docs/security/update/security-bulletins-phones-202405-0000001902628049\", \"source\": \"psirt@huawei.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "HarmonyOS",
+      "EMUI"
+    ],
+    "os_version": [
+      "4.0.0",
+      "3.1.0",
+      "3.0.0",
+      "2.1.0",
+      "2.0.0",
+      "14.0.0",
+      "13.0.0",
+      "12.0.0"
+    ],
+    "component_name": "RSMC module",
+    "component_version": [],
+    "side": "client"
+  },
+  {
+    "id": 502537,
+    "cve_id": "CVE-2024-31964",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-02T17:15:07.913000+01:00",
+    "last_modified": "2024-07-03T02:55:38.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A vulnerability on Mitel 6800 Series and 6900 Series SIP Phones through 6.3 SP3 HF4, 6900w Series SIP Phone through 6.3.3, and 6970 Conference Unit through 5.1.1 SP8 allows an unauthenticated attacker to conduct an authentication bypass attack due to improper authentication control. A successful exploit could allow an attacker to modify system configuration settings and potentially cause a denial of service.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-284\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-24-0007\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Mitel 6800 Series SIP Phones",
+      "Mitel 6900 Series SIP Phones",
+      "Mitel 6900w Series SIP Phone",
+      "Mitel 6970 Conference Unit"
+    ],
+    "component_version": [
+      "6.3 SP3 HF4 and earlier",
+      "6.3.3 and earlier",
+      "5.1.1 SP8 and earlier"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 502538,
+    "cve_id": "CVE-2024-31965",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-02T17:15:07.973000+01:00",
+    "last_modified": "2024-07-03T02:55:39.003000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A vulnerability on Mitel 6800 Series and 6900 Series SIP Phones through 6.3 SP3 HF4, 6900w Series SIP Phone through 6.3.3, and 6970 Conference Unit through 5.1.1 SP8 allows an authenticated attacker with administrative privilege to conduct a path traversal attack due to insufficient input validation. A successful exploit could allow an attacker to access sensitive information.",
+    "cvss_score_v3": 4.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-20\"}, {\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-24-0008\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Mitel 6800 Series SIP Phones",
+      "Mitel 6900 Series SIP Phones",
+      "Mitel 6900w Series SIP Phone",
+      "Mitel 6970 Conference Unit"
+    ],
+    "component_version": [
+      "6.3 SP3 HF4 and earlier",
+      "6.3 SP3 HF4 and earlier",
+      "6.3.3 and earlier",
+      "5.1.1 SP8 and earlier"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504124,
+    "cve_id": "CVE-2024-22345",
+    "source_identifier": "psirt@us.ibm.com",
+    "published": "2024-05-14T15:57:45.770000+01:00",
+    "last_modified": "2024-05-14T17:13:02.773000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "IBM TXSeries for Multiplatforms 8.2 transmits or stores authentication credentials, but it uses an insecure method that is susceptible to unauthorized interception and/or retrieval.  IBM X-Force ID:  280192.",
+    "cvss_score_v3": 6.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@us.ibm.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-522\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://exchange.xforce.ibmcloud.com/vulnerabilities/280192\", \"source\": \"psirt@us.ibm.com\"}, {\"url\": \"https://www.ibm.com/support/pages/node/7150667\", \"source\": \"psirt@us.ibm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Linux",
+      "AIX",
+      "Windows",
+      "HP"
+    ],
+    "os_version": [
+      "8.2"
+    ],
+    "component_name": [
+      "IBM TXSeries for Multiplatforms",
+      "Administration Console"
+    ],
+    "component_version": [
+      "8.2"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 502541,
+    "cve_id": "CVE-2024-32359",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-02T17:15:08.127000+01:00",
+    "last_modified": "2024-07-03T02:56:24.743000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "An RBAC authorization risk in Carina v0.13.0 and earlier allows local attackers to execute arbitrary code through designed commands to obtain the secrets of the entire cluster and further take over the cluster.",
+    "cvss_score_v3": 6.9,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-285\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"http://carina.com\", \"source\": \"cve@mitre.org\"}, {\"url\": \"https://gist.github.com/HouqiyuA/568d9857dab4ddba6b8b6a791e90f906\", \"source\": \"cve@mitre.org\"}, {\"url\": \"https://github.com/HouqiyuA/k8s-rbac-poc\", \"source\": \"cve@mitre.org\"}, {\"url\": \"https://github.com/carina-io/carina\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Linux"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Carina"
+    ],
+    "component_version": [
+      "v0.13.0 and earlier"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 502542,
+    "cve_id": "CVE-2024-33530",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-02T17:15:08.190000+01:00",
+    "last_modified": "2024-07-03T02:58:25.043000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "In Jitsi Meet before 9391, a logic flaw in password-protected Jitsi meetings (that make use of a lobby) leads to the disclosure of the meeting password when a user is invited to a call after waiting in the lobby.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://insinuator.net/2024/05/vulnerability-in-jitsi-meet-meeting-password-disclosure-affecting-meetings-with-lobbies/\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Jitsi Meet"
+    ],
+    "component_version": [
+      "1.0.4289",
+      "2.0.9364"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 502543,
+    "cve_id": "CVE-2024-4433",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-02T17:15:08.300000+01:00",
+    "last_modified": "2024-05-02T19:00:37.360000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Mr Digital Simple Image Popup allows Stored XSS.This issue affects Simple Image Popup: from n/a through 2.4.0.\n\n",
+    "cvss_score_v3": 5.9,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-79\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/simple-image-popup/wordpress-simple-image-popup-plugin-2-4-0-cross-site-scripting-xss-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "WordPress"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Simple Image Popup"
+    ],
+    "component_version": [
+      "<= 2.4.0"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503483,
+    "cve_id": "CVE-2024-4461",
+    "source_identifier": "cve-coordination@incibe.es",
+    "published": "2024-05-03T12:15:22.630000+01:00",
+    "last_modified": "2024-05-03T13:48:41.067000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Unquoted path or search item vulnerability in SugarSync versions prior to 4.1.3 for Windows. This misconfiguration could allow an unauthorized local user to inject arbitrary code into the unquoted service path, resulting in privilege escalation.",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"cve-coordination@incibe.es\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-428\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.incibe.es/en/incibe-cert/notices/aviso/unquoted-path-or-search-item-vulnerability-sugarsync\", \"source\": \"cve-coordination@incibe.es\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "SugarSync"
+    ],
+    "component_version": [
+      "<4.1.3"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503486,
+    "cve_id": "CVE-2024-33786",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-03T14:15:21.983000+01:00",
+    "last_modified": "2024-08-01T14:52:06.273000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "An arbitrary file upload vulnerability in Zhongcheng Kexin Ticketing Management Platform 20.04 allows attackers to execute arbitrary code via uploading a crafted file.",
+    "cvss_score_v3": 9.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-434\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://github.com/jiankeguyue/VulnerabilityReport/blob/main/zhongcheng_kexin_ticketing_management_platform.md\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Zhongcheng Kexin Ticketing Management Platform"
+    ],
+    "component_version": [
+      "20.04"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 503490,
+    "cve_id": "CVE-2023-41818",
+    "source_identifier": "psirt@lenovo.com",
+    "published": "2024-05-03T15:15:08.580000+01:00",
+    "last_modified": "2024-05-03T15:17:53.690000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\nAn improper use of the SD card for sensitive data vulnerability was reported in the Motorola Device Help application that could allow a local attacker to read system logs.\u00a0\n\n",
+    "cvss_score_v3": 5.0,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@lenovo.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-921\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://en-us.support.motorola.com/app/answers/detail/a_id/178876\", \"source\": \"psirt@lenovo.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Motorola Device Help application"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503493,
+    "cve_id": "CVE-2023-41821",
+    "source_identifier": "psirt@lenovo.com",
+    "published": "2024-05-03T15:15:09.160000+01:00",
+    "last_modified": "2024-05-03T15:17:53.690000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\nA an improper export vulnerability was reported in the Motorola Setup application that could allow a local attacker to read sensitive user information.\u00a0\n\n",
+    "cvss_score_v3": 5.0,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@lenovo.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-926\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://en-us.support.motorola.com/app/answers/detail/a_id/178879\", \"source\": \"psirt@lenovo.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "Not Specified"
+    ],
+    "component_name": [
+      "Motorola Setup application"
+    ],
+    "component_version": [
+      "Not Specified"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503497,
+    "cve_id": "CVE-2023-41825",
+    "source_identifier": "psirt@lenovo.com",
+    "published": "2024-05-03T15:15:09.923000+01:00",
+    "last_modified": "2024-05-03T15:17:53.690000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\nA path traversal vulnerability was reported in the Motorola Ready For application that could allow a local attacker to access local files.\u00a0\n\n",
+    "cvss_score_v3": 2.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@lenovo.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://en-us.support.motorola.com/app/answers/detail/a_id/178866\", \"source\": \"psirt@lenovo.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "All versions"
+    ],
+    "component_name": [
+      "Motorola Ready For application"
+    ],
+    "component_version": [
+      "All versions before 2023-12-01"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503499,
+    "cve_id": "CVE-2023-41828",
+    "source_identifier": "psirt@lenovo.com",
+    "published": "2024-05-03T15:15:10.310000+01:00",
+    "last_modified": "2024-05-03T15:17:53.690000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "\nAn implicit intent export vulnerability was reported in the Motorola Phone application, that could allow unauthorized access to a non-exported content provider.\u00a0\u00a0",
+    "cvss_score_v3": 4.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@lenovo.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-927\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://en-us.support.motorola.com/app/answers/detail/a_id/178701\", \"source\": \"psirt@lenovo.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "Unknown"
+    ],
+    "component_name": [
+      "Motorola Phone Application"
+    ],
+    "component_version": [
+      "Unknown"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503672,
+    "cve_id": "CVE-2024-4548",
+    "source_identifier": "vulnreport@tenable.com",
+    "published": "2024-05-06T15:15:08.533000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "An SQLi vulnerability exists in\u00a0Delta Electronics DIAEnergie v1.10.1.8610 and prior when CEBC.exe processes a 'RecalculateHDMWYC' message, which is split into 4 fields using the '~' character as the separator. An unauthenticated remote attacker can perform SQLi via the fourth field.",
+    "cvss_score_v3": 9.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"vulnreport@tenable.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-20\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.tenable.com/security/research/tra-2024-13\", \"source\": \"vulnreport@tenable.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Delta Electronics DIAEnergie CEBC.exe"
+    ],
+    "component_version": [
+      "v1.10.1.8610 and prior"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 503674,
+    "cve_id": "CVE-2023-33119",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:19.680000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption while loading a VM from a signed VM image that is not coherent in the processor cache.",
+    "cvss_score_v3": 8.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-367\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Qualcomm Processor"
+    ],
+    "component_version": null,
+    "side": "both"
+  },
+  {
+    "id": 503675,
+    "cve_id": "CVE-2023-43521",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:19.900000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption when multiple listeners are being registered with the same file descriptor.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": null,
+    "component_version": null,
+    "side": "both"
+  },
+  {
+    "id": 503677,
+    "cve_id": "CVE-2023-43525",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:20.253000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption while copying the sound model data from user to kernel buffer during sound model register.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-120\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Qualcomm Sound Model"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 503678,
+    "cve_id": "CVE-2023-43526",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:20.430000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption while querying module parameters from Listen Sound model client in kernel from user space.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-120\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Kernel"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Listen Sound model client"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 503679,
+    "cve_id": "CVE-2023-43527",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:20.610000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Information disclosure while parsing dts header atom in Video.",
+    "cvss_score_v3": 6.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-126\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Video"
+    ],
+    "component_version": null,
+    "side": "client"
+  },
+  {
+    "id": 503680,
+    "cve_id": "CVE-2023-43528",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:20.803000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Information disclosure when the ADSP payload size received in HLOS in response to Audio Stream Manager matrix session is less than this expected size.",
+    "cvss_score_v3": 6.1,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-126\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Audio Stream Manager"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 503684,
+    "cve_id": "CVE-2024-21471",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:21.580000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption when IOMMU unmap of a GPU buffer fails in Linux.",
+    "cvss_score_v3": 8.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Linux"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "IOMMU"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 503686,
+    "cve_id": "CVE-2024-21475",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:21.953000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption when the payload received from firmware is not as per the expected protocol size.",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-823\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": null,
+    "component_version": null,
+    "side": "both"
+  },
+  {
+    "id": 503688,
+    "cve_id": "CVE-2024-21477",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:22.353000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Transient DOS while parsing a protected 802.11az Fine Time Measurement (FTM) frame.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-126\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Qualcomm 802.11az Fine Time Measurement (FTM) frame parser"
+    ],
+    "component_version": null,
+    "side": "both"
+  },
+  {
+    "id": 489646,
+    "cve_id": "CVE-2023-43514",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-01-02T07:15:13.557000+01:00",
+    "last_modified": "2024-04-12T16:15:32.370000+00:00",
+    "vuln_status": "Modified",
+    "description": "Memory corruption while invoking IOCTLs calls from user space for internal mem MAP and internal mem UNMAP.",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"nvd@nist.gov\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}, {\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[{\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:ar8035_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C88B9C86-2E8E-4DCE-A30C-02977CC00F00\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:ar8035:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"EE473A5A-5CFC-4F08-A173-30717F8BD0D7\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:fastconnect_6200_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"CDE1CBDE-3D28-463C-B215-AA7DF373EF09\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:fastconnect_6200:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"66BD3B88-7CF9-482D-A2DD-67F6ACF4CC57\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:fastconnect_6700_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"82B82E87-F3F4-466F-A76B-C8809121FF6F\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:fastconnect_6700:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"419A132E-E42C-4395-B74B-788A39DF1D13\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:fastconnect_6900_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E670F500-9B71-4BBE-B5DA-221D35803C89\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:fastconnect_6900:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"9ADEB5C5-B79A-4F45-B7D3-75945B38DB6C\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:fastconnect_7800_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B3053D68-C5D8-4D47-A4F0-9F3AF2289E1D\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:fastconnect_7800:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"638DBC7F-456F-487D-BED2-2214DFF8BEE2\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:flight_rb5_5g_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"AD36089F-92DF-49EC-9C6F-4300E4903CB2\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:flight_rb5_5g_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D19A754C-6900-4436-916D-F5361E0BC324\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qam8255p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"3723C7B1-A7E2-401F-8D6D-189350F6BCA5\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qam8255p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B12B89EF-7B12-481E-BCBC-F12B9D16321A\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qam8295p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C2D9E281-B382-41AC-84CB-5B1063E5AC51\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qam8295p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"44EBEBD5-98C3-493B-A108-FD4DE6FFBE97\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qam8650p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"295E75BD-2A6C-4A76-A376-A9977DDB17FF\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qam8650p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BD37AA1A-B911-45BF-9BCC-C772FA83E657\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qam8775p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"49B2DF91-BE6B-4E9E-B63C-98DADD29AD6B\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qam8775p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"58170126-928F-4AE5-B5AF-5ED4710F9BA2\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6391_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"83B53119-1B2F-4978-B7F5-33B84BE73B68\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6391:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6FEBC0C5-CAA1-475C-96C2-B8D24B2E4536\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6574_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"9B828AC8-4A01-4537-B2BD-8180C99F5C32\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6574:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"66C16E1E-9D4A-4F20-B697-833FDCCA86FB\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6574a_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"828CFB37-76A6-4927-9D00-AF9A1C432DD6\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6574a:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"11405993-5903-4716-B452-370281034B42\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6574au_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D527E2B1-2A46-4FBA-9F7A-F5543677C8FB\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6574au:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8374DDB3-D484-4141-AE0C-42333D2721F6\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6595_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"643EC76D-2836-48E6-81DA-78C4883C33CA\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6595:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"477F6529-4CE1-44FC-B6EE-D24D44C71AE7\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6595au_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"288F637F-22F8-47CF-B67F-C798A730A1BD\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6595au:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D0996EA3-1C92-4933-BE34-9CF625E59FE7\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6696_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0AE207DB-9770-40ED-961D-FDA75965826F\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6696:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0E23922D-C37F-476F-A623-4C1458A9156F\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6698aq_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5FA1F8F4-EAF2-4704-A8A6-19AD3CA1B577\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6698aq:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B3F7853D-09EE-476F-B48D-BB30AEB4A67D\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca6797aq_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"797295C2-535C-46A9-A725-E1A5405F0436\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca6797aq:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8BFC575E-594E-4711-94B1-2DC8D03B9AC4\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca8081_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1D1C53DC-D2F3-4C92-9725-9A85340AF026\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca8081:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"ED0585FF-E390-46E8-8701-70964A4057BB\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qca8337_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2FA8F9DA-1386-4961-B9B2-484E4347852A\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qca8337:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"117289C8-7484-4EAE-8F35-A25768F00EED\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcc710_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2A75D017-032F-4369-917C-567EE2A809F2\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcc710:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"107F0423-608C-404D-B58B-616A6494418F\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcm4325_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"F2D8044B-D4E5-4174-A0FB-478F8434EE8F\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcm4325:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"163FE96E-DF5B-4B67-8EDE-44A5B9A8492D\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcm6490_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"ADD6D51E-5787-42A6-8A02-4EBBAFFF9C94\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcm6490:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"99AA0291-B822-4CAD-BA17-81B632FC3FEF\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcm8550_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"646B241B-2971-4929-9FB6-7A4CBF801CBB\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcm8550:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5654FFB5-9A89-4399-AFAB-0A26726DEC81\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcn6224_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5F4362D2-30A3-4388-ABB6-293878AD7036\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcn6224:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BB6AE9A7-386A-473B-9BD5-DA37B1E696C5\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcn6274_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"88376C1D-AC4D-4EB0-AF6A-274D020F5859\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcn6274:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E15BA4B4-C97F-45C0-A4AD-7E46387F19A6\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcs6490_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"403AE561-6C9E-49F3-A5D6-C48DDD51D663\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcs6490:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6FAC140F-FC5E-4C88-B777-7F5EBF49A695\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcs7230_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B92C311A-306B-43C9-ACBA-B1B390927C6A\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcs7230:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"F68F9B33-6BA5-46E1-A370-547CDA626985\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcs8250_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1CDDD37F-4C3A-4955-9AFB-7774021A0198\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcs8250:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2D13E375-0562-4263-8452-53E117F14E83\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qcs8550_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"FFF23DDB-98A0-4343-ADD3-5AB9C2383E7E\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qcs8550:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5ACB8AFB-5B91-4AA1-BA3A-1AF0B3503080\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdu1000_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"407EE4D5-1F52-40D6-B85A-E49915D6EF2D\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdu1000:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5846C9DD-63E5-482D-BE01-3A1E89CC0EDE\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdu1010_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6B6A4AA9-E35B-4B25-9FD3-BFB907B822DB\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdu1010:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5AC8538B-6663-4CF7-BD4A-9766C04CBAB5\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdu1110_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"7F5F9F3D-1F57-4D16-972E-AF39E438E4C3\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdu1110:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"53D6BEFE-AA21-4786-B11C-A6683AC06622\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdu1210_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"32E0EBD5-A846-44F9-9DEC-1C6711C96A5B\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdu1210:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C68F8102-788C-4EF3-83E4-56DF764DFFBC\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdx1010_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6B7AB84B-55D0-45EB-ABA8-F69E5179507E\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdx1010:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B908A65E-F3B2-417A-91EE-1BE855BABD2E\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qdx1011_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6554B2E1-AE96-40CE-A19F-C7516CDBC41A\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qdx1011:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1991232B-B58F-481E-A7EE-0546E64C12CC\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qfw7114_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"7456782E-B6CE-42ED-A51E-39907120E28B\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qfw7114:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"637BF4DF-BB40-479F-B696-6AD9D4B35D64\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qfw7124_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D72C4CE0-AB59-4652-854F-94C9998F2712\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qfw7124:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"98720774-11B8-4B4B-BC73-D4DA84E07F78\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qrb5165n_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"97BB1EB7-D194-4FE2-B4F6-A7A52F344DDE\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qrb5165n:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"AA2C90E7-0F3A-43BB-ABF7-63CEA7A85ADA\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qru1032_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8ECC6966-23CF-4189-81B3-477A97E38B05\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qru1032:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"01490429-D26C-4F80-83A4-8DC257142B86\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qru1052_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0EAAB699-BFDA-465B-9B82-5E957C67D52A\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qru1052:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0D2C3994-110F-40FA-B60F-D2C85A36E256\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qru1062_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"7C81773C-4A1C-4589-A6FD-A85770F3ADFE\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qru1062:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"CABCCB94-8C93-4CF1-9EA1-D410FF6ACD72\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qualcomm_video_collaboration_vc3_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C20F4F14-D940-41AE-AFBC-D08A24FAE1A2\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qualcomm_video_collaboration_vc3_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"F36CEF6E-97A9-4D01-A406-574EA7CB025B\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:qualcomm_video_collaboration_vc5_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2F357160-9EF0-4150-893B-746289C071AD\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:qualcomm_video_collaboration_vc5_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D3429F7D-C5C7-488E-8E32-518838C51621\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:robotics_rb5_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"FCA73E75-F339-49BA-B1F6-619E4630DE92\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:robotics_rb5_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5DA6E940-1059-4EA2-8225-0F754FE9F50F\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sa6155p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8DC40C14-3B2D-4E00-9E0F-86E6BDBF2D81\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sa6155p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0514D433-162C-4680-8912-721D19BE6201\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sa8155p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C8648B38-2597-401A-8F53-D582FA911569\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sa8155p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"A01CD59B-8F21-4CD6-8A1A-7B37547A8715\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sa8195p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"51BC0A66-493B-43BE-B51F-640BDF2FF32E\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sa8195p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D8DA4D12-7ABF-4A04-B44E-E1D68C8E58AB\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sa8255p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"EC6E268D-C4AF-4950-9223-39EA36D538A8\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sa8255p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"073C1A81-D02B-4F2F-9378-CD1B2DCE0E5B\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sa8295p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2A19659B-A0C3-44B7-8D54-BA21729873A4\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sa8295p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"F978041A-CE28-4BDF-A7DB-F0360F1A5F14\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sg4150p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"9279F02F-6C30-4891-8941-97003DE9C8C7\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sg4150p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"FFA7BB42-305C-451F-92D8-0718DF68A012\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sg8275p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8509F3A3-A1CA-466B-9031-4146C36B9AF8\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sg8275p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B1813AB7-44F5-476B-9533-536F5B2F26BB\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sm8550p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C4CDD6A2-5A3C-4572-8CE1-2F102333BB79\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sm8550p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"699E5D17-6144-4F0A-8D52-1E8C83990E52\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_4_gen_1_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"2CCBF666-CB4E-44E1-9676-6891EDC73578\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_4_gen_1_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C767AB6A-1A8C-406C-A600-96A816F44E2F\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_480_5g_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"CA3F11F3-C9F4-460D-BD77-1BFBCC1F0592\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_480_5g_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"25673A10-D99C-4F67-BDA7-9C2E4A70EF9C\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_480\\\\+_5g_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"50906EF2-01F7-4E97-9F49-F892DF41CB29\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_480\\\\+_5g_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B23A89FF-9C94-40C6-B9B7-3E8354777916\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_680_4g_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8D0ED00F-1345-43AD-83C6-E979890B84AB\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_680_4g_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"92C28019-B57D-4487-B551-F7B53395C6E5\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_685_4g_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"C174F07D-0E33-43FD-9BAD-6C6D8B51B6A6\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_685_4g_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"47311B68-A07F-448B-99D5-9C92C8127A81\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_695_5g_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"A9A2DA11-5E4E-4E36-923C-A2D3CC2F2751\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_695_5g_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BE7DFAD4-1D21-4A3A-9E8C-10F00AD7C403\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_8_gen_2_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"60F5899C-BA8D-4B6B-BC61-F77B1EB64739\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_8_gen_2_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D39AD7CE-A017-4D74-A348-9E4B08363799\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_8\\\\+_gen_2_mobile_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1FEDF458-DEA7-42A1-A56D-E11250139545\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_8\\\\+_gen_2_mobile_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"D5693438-0F20-47BB-BA32-7175C3152368\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_w5\\\\+_gen_1_wearable_platform_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"0C455E7D-D256-4240-BE72-2A93273D685A\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_w5\\\\+_gen_1_wearable_platform:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"423E21A1-8F52-46DA-9AC2-77159FEB6001\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:snapdragon_x75_5g_modem-rf_system_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"95A98B39-067F-4047-9ADB-7C53F18CBB7B\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:snapdragon_x75_5g_modem-rf_system:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1C462F32-0E70-472A-A42D-CD0229A97E94\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sw5100_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"AA1BF9BB-AF11-46A7-A71C-F7D289E76E3F\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sw5100:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"7B8455D6-287D-4934-8E4D-F4127A9C0449\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:sw5100p_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"DB599A9F-0305-4FE4-8623-0F86630FEDCB\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:sw5100p:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"EEB883BF-68B2-4C25-84DC-5DA953BFAA2F\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9340_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8BA28CC6-C8BB-4F50-BFE3-A59F664A4F54\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9340:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"94D2BDF1-764C-48BA-8944-3275E8768078\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9370_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"1295D869-F4DD-4766-B4AA-3513752F43B4\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9370:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B98784DC-3143-4D38-AD28-DBBDCCAB4272\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9375_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"34143ABA-7D09-429F-A65C-3A33438BF62C\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9375:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"9D56DFE3-5EF1-4B23-BBD5-0203FBF9CCEC\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9380_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"70292B01-617F-44AD-AF77-1AFC1450523D\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9380:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"FA94C6D6-85DB-4031-AAF4-C399019AE16D\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9385_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"92B17201-8185-47F1-9720-5AB4ECD11B22\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9385:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E1FA2EB9-416F-4D69-8786-386CC73978AE\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9390_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"896F1C04-9957-440F-BF01-C3772CC3B3DF\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9390:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"A90555EB-47A7-4717-92D5-35B561825F06\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcd9395_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"699056F6-1517-4F25-AE07-4FFCF6923B9F\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcd9395:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E4C023D2-6FF5-4FFC-B9F2-895979166580\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcn3950_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"3FEF2DB6-00F5-4B07-953B-EF58B31267F1\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcn3950:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"120E8F0F-EBEB-4565-9927-2D473F783EF7\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcn3980_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"9C6E9038-9B18-4958-BE1E-215901C9B4B2\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcn3980:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"B36D3274-F8D0-49C5-A6D5-95F5DC6D1950\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wcn3988_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E4BFB25F-013B-48E3-99FF-3E8687F94423\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wcn3988:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BF676C5B-838B-446C-A689-6A25AB8A87E2\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8810_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"15307882-7039-43E9-9BA3-035045988B99\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8810:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"AA85B322-E593-4499-829A-CC6D70BAE884\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8815_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"E839A0B9-64C3-4C7A-82B7-D2AAF65928F8\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8815:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"7E870D82-DE3B-4199-A730-C8FB545BAA98\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8830_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"11B69595-E488-4590-A150-CE5BE08B5E13\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8830:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BF680174-5FA6-47D9-8EAB-CC2A37A7BD42\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8835_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"F80BC68E-7476-4A40-9F48-53722FE9A5BF\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8835:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"6B36F4B2-BAA3-45AD-9967-0EB482C99708\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8840_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"CA33DE15-C177-43B3-AD50-FF797753D12E\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8840:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"AE1A5841-5BCB-4033-ACB9-23F3FCA65309\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8845_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"5B47BF35-3AA0-4667-842E-19B0FE30BF3C\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8845:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"8A071672-9405-4418-9141-35CEADBB65AF\"}]}]}, {\"operator\": \"AND\", \"nodes\": [{\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": true, \"criteria\": \"cpe:2.3:o:qualcomm:wsa8845h_firmware:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"BB7CF473-8B25-4851-91F2-1BD693CCDC85\"}]}, {\"operator\": \"OR\", \"negate\": false, \"cpeMatch\": [{\"vulnerable\": false, \"criteria\": \"cpe:2.3:h:qualcomm:wsa8845h:-:*:*:*:*:*:*:*\", \"matchCriteriaId\": \"91E591F2-8F72-4A5A-9264-2742EB2DABDA\"}]}]}]",
+    "references": "[{\"url\": \"https://www.qualcomm.com/company/product-security/bulletins/january-2024-bulletin\", \"source\": \"product-security@qualcomm.com\", \"tags\": [\"Patch\", \"Vendor Advisory\"]}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "AR8035 Firmware",
+      "FastConnect 6200 Firmware",
+      "FastConnect 6700 Firmware",
+      "FastConnect 6900 Firmware",
+      "FastConnect 7800 Firmware",
+      "Flight RB5 5G Platform Firmware",
+      "QAM8255P Firmware",
+      "QAM8295P Firmware",
+      "QAM8650P Firmware",
+      "QAM8775P Firmware",
+      "QCA6391 Firmware",
+      "QCA6574 Firmware",
+      "QCA6574A Firmware",
+      "QCA6574AU Firmware",
+      "QCA6595 Firmware",
+      "QCA6595AU Firmware",
+      "QCA6696 Firmware",
+      "QCA6698AQ Firmware",
+      "QCA6797AQ Firmware",
+      "QCA8081 Firmware",
+      "QCA8337 Firmware",
+      "QCC710 Firmware",
+      "QCM4325 Firmware",
+      "QCM6490 Firmware",
+      "QCM8550 Firmware",
+      "QCN6224 Firmware",
+      "QCN6274 Firmware",
+      "QCS6490 Firmware",
+      "QCS7230 Firmware",
+      "QCS8250 Firmware",
+      "QCS8550 Firmware",
+      "QDU1000 Firmware",
+      "QDU1010 Firmware",
+      "QDU1110 Firmware",
+      "QDU1210 Firmware",
+      "QDX1010 Firmware",
+      "QDX1011 Firmware",
+      "QFW7114 Firmware",
+      "QFW7124 Firmware",
+      "QRB5165N Firmware",
+      "QRU1032 Firmware",
+      "QRU1052 Firmware",
+      "QRU1062 Firmware",
+      "Qualcomm Video Collaboration VC3 Platform Firmware",
+      "Qualcomm Video Collaboration VC5 Platform Firmware",
+      "Robotics RB5 Platform Firmware",
+      "SA6155P Firmware",
+      "SA8155P Firmware",
+      "SA8195P Firmware",
+      "SA8255P Firmware",
+      "SA8295P Firmware",
+      "SG4150P Firmware",
+      "SG8275P Firmware",
+      "SM8550P Firmware",
+      "Snapdragon 4 Gen 1 Mobile Platform Firmware",
+      "Snapdragon 480 5G Mobile Platform Firmware",
+      "Snapdragon 480+ 5G Mobile Platform Firmware",
+      "Snapdragon 680 4G Mobile Platform Firmware",
+      "Snapdragon 685 4G Mobile Platform Firmware",
+      "Snapdragon 695 5G Mobile Platform Firmware",
+      "Snapdragon 8 Gen 2 Mobile Platform Firmware",
+      "Snapdragon 8+ Gen 2 Mobile Platform Firmware",
+      "Snapdragon W5+ Gen 1 Wearable Platform Firmware",
+      "Snapdragon X75 5G Modem-RF System Firmware",
+      "SW5100 Firmware",
+      "SW5100P Firmware",
+      "WCD9340 Firmware",
+      "WCD9370 Firmware",
+      "WCD9375 Firmware",
+      "WCD9380 Firmware",
+      "WCD9385 Firmware",
+      "WCD9390 Firmware",
+      "WCD9395 Firmware",
+      "WCN3950 Firmware",
+      "WCN3980 Firmware",
+      "WCN3988 Firmware",
+      "WSA8810 Firmware",
+      "WSA8815 Firmware",
+      "WSA8830 Firmware",
+      "WSA8835 Firmware",
+      "WSA8840 Firmware",
+      "WSA8845 Firmware",
+      "WSA8845H Firmware"
+    ],
+    "component_version": [
+      "-"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 503691,
+    "cve_id": "CVE-2024-23354",
+    "source_identifier": "product-security@qualcomm.com",
+    "published": "2024-05-06T16:15:22.943000+01:00",
+    "last_modified": "2024-05-06T17:00:59.253000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Memory corruption when the IOCTL call is interrupted by a signal.",
+    "cvss_score_v3": 8.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"product-security@qualcomm.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.qualcomm.com/product/publicresources/securitybulletin/may-2024-bulletin.html\", \"source\": \"product-security@qualcomm.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Android"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Qualcomm Snapdragon"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 503728,
+    "cve_id": "CVE-2024-34383",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-06T19:15:08.603000+01:00",
+    "last_modified": "2024-05-09T15:15:07.317000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Authorization Bypass Through User-Controlled Key vulnerability in The SEO Guys at SEOPress SEOPress.This issue affects SEOPress: from n/a through 7.7.1.\n\n",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-639\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/wp-seopress/wordpress-seopress-plugin-7-6-1-sensitive-data-exposure-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "SEOPress"
+    ],
+    "component_version": [
+      "<= 7.7.1"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 503730,
+    "cve_id": "CVE-2024-33910",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-06T20:15:06.757000+01:00",
+    "last_modified": "2024-05-06T20:53:38.797000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Missing Authorization vulnerability in Supsystic Digital Publications by Supsystic.This issue affects Digital Publications by Supsystic: from n/a through 1.7.7.\n\n",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-862\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/digital-publications-by-supsystic/wordpress-digital-publications-by-supsystic-plugin-1-7-7-broken-access-control-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Digital Publications by Supsystic"
+    ],
+    "component_version": [
+      "<= 1.7.7"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 503731,
+    "cve_id": "CVE-2024-33912",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-06T20:15:07+01:00",
+    "last_modified": "2024-05-06T20:53:38.797000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Missing Authorization vulnerability in Academy LMS.This issue affects Academy LMS: from n/a through 1.9.16.\n\n",
+    "cvss_score_v3": 7.1,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-862\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/academy/wordpress-academy-lms-plugin-1-9-16-broken-access-control-on-paid-courses-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": "Academy LMS",
+    "component_version": [
+      "<= 1.9.16"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 503733,
+    "cve_id": "CVE-2024-34367",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-06T20:15:07.383000+01:00",
+    "last_modified": "2024-05-06T20:53:38.797000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Cross-Site Request Forgery (CSRF) vulnerability in Popup Box Team Popup box allows Cross-Site Scripting (XSS).This issue affects Popup box: from n/a through 4.1.2.\n\n",
+    "cvss_score_v3": 7.1,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-352\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/ays-popup-box/wordpress-popup-box-plugin-4-1-2-csrf-to-xss-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "WordPress"
+    ],
+    "os_version": [
+      "n/a"
+    ],
+    "component_name": [
+      "Popup box Plugin"
+    ],
+    "component_version": [
+      "<= 4.1.2"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504305,
+    "cve_id": "CVE-2024-33942",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-14T16:38:17.220000+01:00",
+    "last_modified": "2024-05-14T17:12:23.490000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Missing Authorization vulnerability in Eric Alli Google Typography.This issue affects Google Typography: from n/a through 1.1.2.\n\n",
+    "cvss_score_v3": 4.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-862\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/google-typography/wordpress-google-typography-plugin-1-1-2-broken-access-control-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Google Typography"
+    ],
+    "component_version": [
+      "<= 1.1.2"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504308,
+    "cve_id": "CVE-2024-33952",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-14T16:38:20.373000+01:00",
+    "last_modified": "2024-05-14T17:12:23.490000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Justin Tadlock Unique allows Stored XSS.This issue affects Unique: from n/a through 0.3.0.\n\n",
+    "cvss_score_v3": 6.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-79\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/unique/wordpress-unique-theme-0-3-0-cross-site-scripting-xss-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": "Unique",
+    "component_version": [
+      "<= 0.3.0"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504310,
+    "cve_id": "CVE-2024-33954",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-14T16:38:21.733000+01:00",
+    "last_modified": "2024-05-14T17:12:23.490000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Atanas Yonkov Pliska allows Stored XSS.This issue affects Pliska: from n/a through 0.3.5.\n\n",
+    "cvss_score_v3": 6.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-79\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/pliska/wordpress-pliska-theme-0-3-5-cross-site-scripting-xss-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Pliska"
+    ],
+    "component_version": [
+      "<= 0.3.5"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504347,
+    "cve_id": "CVE-2024-34245",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:38:37.447000+01:00",
+    "last_modified": "2024-05-14T17:12:23.490000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "An arbitrary file read vulnerability in DedeCMS v5.7.114 allows authenticated attackers to read arbitrary files by specifying any path in makehtml_js_action.php.",
+    "cvss_score_v3": 0.0,
+    "cvss_vector_v3": "",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://github.com/Stoocea/Vulnerability-analysis-Notes/blob/main/cms/DedeCMS-V5.7.114%20%20Arbitrary%20file%20read%20vulnerability.md\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "DedeCMS"
+    ],
+    "component_version": [
+      "v5.7.114"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504349,
+    "cve_id": "CVE-2024-34310",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:38:38.943000+01:00",
+    "last_modified": "2024-08-14T19:35:04.427000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Jin Fang Times Content Management System v3.2.3 was discovered to contain a SQL injection vulnerability via the id parameter.",
+    "cvss_score_v3": 8.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-89\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://github.com/3309899621/CVE-2024-34310\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Jin Fang Times Content Management System"
+    ],
+    "component_version": [
+      "3.2.3"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504350,
+    "cve_id": "CVE-2024-34338",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:38:39.337000+01:00",
+    "last_modified": "2024-07-03T02:59:54.407000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Tenda O3V2 with firmware versions V1.0.0.10 and V1.0.0.12 was discovered to contain a Blind Command Injection via dest parameter in /goform/getTraceroute. This vulnerability allows attackers to execute arbitrary commands with root privileges. Authentication is required to exploit this vulnerability.",
+    "cvss_score_v3": 7.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-77\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"http://exzettabyte.me/blind-command-injection-in-tenda-o3v2\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Tenda O3V2"
+    ],
+    "component_version": [
+      "V1.0.0.10",
+      "V1.0.0.12"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504815,
+    "cve_id": "CVE-2024-30021",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:54.090000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Mobile Broadband Driver Remote Code Execution Vulnerability",
+    "cvss_score_v3": 6.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-190\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30021\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "Mobile"
+    ],
+    "component_name": [
+      "Broadband Driver"
+    ],
+    "component_version": [
+      "Unknown"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504816,
+    "cve_id": "CVE-2024-30022",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:55.400000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-197\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30022\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Windows Routing and Remote Access Service (RRAS)"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504817,
+    "cve_id": "CVE-2024-30023",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:56.520000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-197\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30023\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Windows Routing and Remote Access Service (RRAS)"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504819,
+    "cve_id": "CVE-2024-30025",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:58.513000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-125\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30025\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "N/A"
+    ],
+    "component_name": [
+      "Windows Common Log File System Driver"
+    ],
+    "component_version": [
+      "N/A"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 504820,
+    "cve_id": "CVE-2024-30027",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:59.450000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "NTFS Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-415\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30027\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "NTFS"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504821,
+    "cve_id": "CVE-2024-30028",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:00.503000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Win32k Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30028\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Win32k"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504837,
+    "cve_id": "CVE-2024-30044",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:16.107000+01:00",
+    "last_modified": "2024-05-15T18:15:12.200000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-502\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30044\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Microsoft SharePoint Server"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504840,
+    "cve_id": "CVE-2024-30047",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:18.830000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Dynamics 365 Customer Insights Spoofing Vulnerability",
+    "cvss_score_v3": 7.6,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-79\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30047\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Dynamics 365 Customer Insights"
+    ],
+    "component_version": null,
+    "side": "server"
+  },
+  {
+    "id": 504841,
+    "cve_id": "CVE-2024-30048",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:19.713000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Dynamics 365 Customer Insights Spoofing Vulnerability",
+    "cvss_score_v3": 7.6,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-79\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30048\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Dynamics 365 Customer Insights"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504931,
+    "cve_id": "CVE-2024-3822",
+    "source_identifier": "contact@wpscan.com",
+    "published": "2024-05-15T07:15:14.377000+01:00",
+    "last_modified": "2024-05-15T17:40:19.330000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "The Base64 Encoder/Decoder WordPress plugin through 0.9.2 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin",
+    "cvss_score_v3": 0.0,
+    "cvss_vector_v3": "",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://wpscan.com/vulnerability/ff5411b1-9e04-4e72-a502-e431d774642a/\", \"source\": \"contact@wpscan.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Base64 Encoder/Decoder WordPress plugin"
+    ],
+    "component_version": [
+      "<= 0.9.2"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504981,
+    "cve_id": "CVE-2024-3892",
+    "source_identifier": "security@progress.com",
+    "published": "2024-05-15T18:15:14.470000+01:00",
+    "last_modified": "2024-05-15T19:35:11.453000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A local code execution vulnerability is possible in Telerik UI for WinForms beginning in v2021.1.122 but prior to v2024.2.514. This vulnerability could allow an untrusted theme assembly to execute arbitrary code on the local Windows system.",
+    "cvss_score_v3": 7.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"security@progress.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-94\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.telerik.com/devtools/winforms/knowledge-base/local-code-execution-vulnerability-cve-2024-3892\", \"source\": \"security@progress.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Telerik UI for WinForms"
+    ],
+    "component_version": [
+      "2021.1.122",
+      "2024.1.312"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504982,
+    "cve_id": "CVE-2024-3967",
+    "source_identifier": "security@opentext.com",
+    "published": "2024-05-15T18:15:14.703000+01:00",
+    "last_modified": "2024-05-15T19:35:11.453000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Remote Code\nExecution has been discovered in\nOpenText\u2122 iManager 3.2.6.0200.\u00a0The vulnerability can\ntrigger remote code execution unisng unsafe java object deserialization.\n\n",
+    "cvss_score_v3": 7.6,
+    "cvss_vector_v3": "CVSS:3.1/AV:A/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"security@opentext.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-502\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.netiq.com/documentation/imanager-32/imanager326_patch3_hf1_releasenotes/data/imanager326_patch3_hf1_releasenotes.html\", \"source\": \"security@opentext.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "OpenText\u2122 iManager"
+    ],
+    "component_version": [
+      "3.2.6.0200"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504984,
+    "cve_id": "CVE-2024-3970",
+    "source_identifier": "security@opentext.com",
+    "published": "2024-05-15T18:15:15.147000+01:00",
+    "last_modified": "2024-05-15T19:35:11.453000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Server Side Request Forgery vulnerability\u00a0has been discovered in OpenText\u2122 iManager 3.2.6.0200. This\ncould lead to senstive information disclosure by directory traversal.",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"security@opentext.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-918\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.netiq.com/documentation/imanager-32/imanager326_patch3_hf1_releasenotes/data/imanager326_patch3_hf1_releasenotes.html\", \"source\": \"security@opentext.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "OpenText\u2122 iManager"
+    ],
+    "component_version": [
+      "3.2.6.0200"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504987,
+    "cve_id": "CVE-2024-4357",
+    "source_identifier": "security@progress.com",
+    "published": "2024-05-15T18:15:15.783000+01:00",
+    "last_modified": "2024-05-15T19:35:11.453000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "An information disclosure vulnerability exists in Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, allows low-privilege attacker to read systems file via XML External Entity Processing.",
+    "cvss_score_v3": 6.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"security@progress.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-611\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://docs.telerik.com/report-server/knowledge-base/xxe-vulnerability-cve-2024-4357\", \"source\": \"security@progress.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Progress Telerik Report Server"
+    ],
+    "component_version": [
+      "2024 Q1 (10.0.24.305) or earlier"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505134,
+    "cve_id": "CVE-2024-30291",
+    "source_identifier": "psirt@adobe.com",
+    "published": "2024-05-16T13:15:12.107000+01:00",
+    "last_modified": "2024-05-16T14:03:05.353000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Adobe Framemaker versions 2020.5, 2022.3 and earlier are affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@adobe.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-787\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://helpx.adobe.com/security/products/framemaker/apsb24-37.html\", \"source\": \"psirt@adobe.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Adobe FrameMaker"
+    ],
+    "component_version": [
+      "2020 Release Update 5 and earlier",
+      "2022 Release Update 3 and earlier"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505136,
+    "cve_id": "CVE-2024-30314",
+    "source_identifier": "psirt@adobe.com",
+    "published": "2024-05-16T13:15:13.280000+01:00",
+    "last_modified": "2024-05-22T09:15:09.777000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Dreamweaver Desktop versions 21.3 and earlier are affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could lead in arbitrary code execution by an attacker. Exploitation of this issue does require user interaction.",
+    "cvss_score_v3": 8.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"psirt@adobe.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-78\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://helpx.adobe.com/security/products/dreamweaver/apsb24-39.html\", \"source\": \"psirt@adobe.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows",
+      "macOS"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Dreamweaver"
+    ],
+    "component_version": [
+      "21.3 and earlier versions"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505184,
+    "cve_id": "CVE-2023-38581",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:52.717000+01:00",
+    "last_modified": "2024-07-03T02:40:52.577000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Buffer overflow in Intel(R) Power Gadget software for Windows all versions may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 8.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-120\"}]}, {\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-121\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01037.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows",
+      "macOS"
+    ],
+    "os_version": [
+      "all versions"
+    ],
+    "component_name": [
+      "Intel\u00ae Power Gadget software"
+    ],
+    "component_version": [
+      "before version 3.6.0",
+      "before version 3.7.0"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505192,
+    "cve_id": "CVE-2023-41082",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:54.483000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Null pointer dereference for some Intel(R) CST software before version 2.1.10300 may allow an authenticated user to potentially enable denial of service via local access.",
+    "cvss_score_v3": 4.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-395\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01021.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae CST software"
+    ],
+    "component_version": [
+      "2.1.10300"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505193,
+    "cve_id": "CVE-2023-41092",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:54.690000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Unchecked return value in SDM firmware for Intel(R) Stratix 10 and Intel(R) Agilex 7 FPGAs before version 23.3 may allow an authenticated user to potentially enable denial of service via adjacent access.",
+    "cvss_score_v3": 7.6,
+    "cvss_vector_v3": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-252\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01007.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "SDM firmware"
+    ],
+    "component_version": [
+      "before version 23.3"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505195,
+    "cve_id": "CVE-2023-41961",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:55.113000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Uncontrolled search path in some Intel(R) GPA software before version 2023.3 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-427\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00831.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Intel\u00ae GPA software",
+      "Intel\u00ae GPA Framework software"
+    ],
+    "component_version": [
+      "before version 2023.3"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505197,
+    "cve_id": "CVE-2023-42668",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:55.523000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Incorrect default permissions in some onboard video driver software before version 1.14 for Intel(R) Server Boards based on Intel(R) 62X Chipset may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-276\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00962.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Onboard video driver software"
+    ],
+    "component_version": [
+      "before version 1.14"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505198,
+    "cve_id": "CVE-2023-42773",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:55.723000+01:00",
+    "last_modified": "2024-07-03T02:41:31.007000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper neutralization in Intel(R) Power Gadget software for Windows all versions may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 8.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-707\"}]}, {\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-707\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01037.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows",
+      "macOS"
+    ],
+    "os_version": [
+      "all versions"
+    ],
+    "component_name": "Intel\u00ae Power Gadget software",
+    "component_version": [
+      "before version 3.6.0",
+      "before version 3.7.0"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505199,
+    "cve_id": "CVE-2023-43487",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:15:55.943000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper access control in some Intel(R) CST before version 2.1.10300 may allow an authenticated user to potentially enable denial of service via local access.",
+    "cvss_score_v3": 4.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-284\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01021.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": "Intel\u00ae Context Sensing Technology (CST) software",
+    "component_version": "before version 2.1.10300",
+    "side": "both"
+  },
+  {
+    "id": 505224,
+    "cve_id": "CVE-2023-48727",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:01.433000+01:00",
+    "last_modified": "2024-07-03T02:42:22.043000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "NULL pointer dereference in some Intel(R) oneVPL software before version 23.3.5 may allow an authenticated user to potentially enable information disclosure via local access.",
+    "cvss_score_v3": 3.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-395\"}]}, {\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-395\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00935.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Intel\u00ae oneVPL software"
+    ],
+    "component_version": [
+      "before version 23.3.5"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505226,
+    "cve_id": "CVE-2024-21772",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:01.977000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Uncontrolled search path in some Intel(R) Advisor software before version 2024.0 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-427\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01047.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae Advisor",
+      "Intel\u00ae oneAPI Base Toolkit"
+    ],
+    "component_version": [
+      "before version 2024.0",
+      "before version 2024.0"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505228,
+    "cve_id": "CVE-2024-21777",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:02.377000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Uncontrolled search path in some Intel(R) Quartus(R) Prime Pro Edition Design software before version 23.4 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-427\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01055.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Intel\u00ae Quartus\u00ae Prime Pro Edition Design software"
+    ],
+    "component_version": [
+      "before version 23.4"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505231,
+    "cve_id": "CVE-2024-21809",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:03.003000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper conditions check for some Intel(R) Quartus(R) Prime Lite Edition Design software before version 23.1 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-92\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01055.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae Quartus\u00ae Prime Lite Edition Design software",
+      "Intel\u00ae Quartus\u00ae Prime Pro Edition Design software",
+      "Intel\u00ae Quartus\u00ae Prime Standard Edition Design software"
+    ],
+    "component_version": [
+      "23.1",
+      "23.4"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 505233,
+    "cve_id": "CVE-2024-21814",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:03.407000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Uncontrolled search path for some Intel(R) Chipset Device Software before version 10.1.19444.8378 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-427\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01032.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae Chipset Device Software"
+    ],
+    "component_version": [
+      "10.1.19444.8378"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505247,
+    "cve_id": "CVE-2024-22379",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:06.557000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Uncontrolled search path in some Intel(R) Inspector software before version 2024.0 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+    "cvss_score_v3": 6.7,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-427\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01043.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae Inspector software",
+      "Intel\u00ae HPC Toolkit software"
+    ],
+    "component_version": [
+      "< 2024.0"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505251,
+    "cve_id": "CVE-2024-22476",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:07.350000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper input validation in some Intel(R) Neural Compressor software before version 2.5.0 may allow an unauthenticated user to potentially enable escalation of privilege via remote access.",
+    "cvss_score_v3": 10.0,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-20\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01109.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "null"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Intel\u00ae Neural Compressor software"
+    ],
+    "component_version": [
+      "< 2.5.0"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 505254,
+    "cve_id": "CVE-2024-24981",
+    "source_identifier": "secure@intel.com",
+    "published": "2024-05-16T22:16:07.970000+01:00",
+    "last_modified": "2024-07-03T02:48:32.340000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper input validation in PfrSmiUpdateFw driver in UEFI firmware for some Intel(R) Server M50FCP Family products may allow a privileged user to enable escalation of privilege via local access.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@intel.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-20\"}]}, {\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-269\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-01080.html\", \"source\": \"secure@intel.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "UEFI firmware"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "PfrSmiUpdateFw driver",
+      "PprRequestLog module",
+      "UserAuthenticationSmm driver",
+      "PlatformPfrDxe driver",
+      "PlatformVariableInitDxe driver",
+      "EpsdSrMgmtConfig"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505277,
+    "cve_id": "CVE-2023-23872",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T08:15:48.920000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in German Mesky GMAce allows Path Traversal.This issue affects GMAce: from n/a through 1.5.2.",
+    "cvss_score_v3": 4.9,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/gmace/wordpress-gmace-plugin-1-5-2-arbitrary-file-download-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "GMAce"
+    ],
+    "component_version": [
+      "<= 1.5.2"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505278,
+    "cve_id": "CVE-2023-23888",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T08:15:49.270000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Rank Math Rank Math SEO allows Path Traversal.This issue affects Rank Math SEO: from n/a through 1.0.107.2.",
+    "cvss_score_v3": 7.6,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/seo-by-rank-math/wordpress-rank-math-seo-plugin-1-0-107-2-local-file-inclusion-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Rank Math SEO"
+    ],
+    "component_version": [
+      "<= 1.0.107.2"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505279,
+    "cve_id": "CVE-2023-23988",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T08:15:49.640000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Missing Authorization vulnerability in Joseph C Dolson My Tickets.This issue affects My Tickets: from n/a through 1.9.11.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-862\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/my-tickets/wordpress-my-tickets-plugin-1-9-11-payment-bypass-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "My Tickets"
+    ],
+    "component_version": [
+      "<= 1.9.11"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505292,
+    "cve_id": "CVE-2023-33310",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T08:15:54.703000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Valiano Unite Gallery Lite allows PHP Local File Inclusion.This issue affects Unite Gallery Lite: from n/a through 1.7.59.",
+    "cvss_score_v3": 6.0,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/unite-gallery-lite/wordpress-unite-gallery-lite-plugin-1-7-59-local-file-inclusion-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Unite Gallery Lite"
+    ],
+    "component_version": [
+      "<= 1.7.59"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505293,
+    "cve_id": "CVE-2023-33321",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T08:15:55.047000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Missing Authorization vulnerability in Metagauss EventPrime allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects EventPrime: from n/a through 2.8.6.",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-862\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/eventprime-event-calendar-management/wordpress-eventprime-plugin-2-8-6-sensitive-data-exposure?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "WordPress"
+    ],
+    "os_version": [
+      "n/a"
+    ],
+    "component_name": [
+      "EventPrime"
+    ],
+    "component_version": [
+      "<= 2.8.6"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505341,
+    "cve_id": "CVE-2024-23522",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T10:15:22.410000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability in Strategy11 Form Builder Team Formidable Forms allows Code Injection.This issue affects Formidable Forms: from n/a through 6.7.",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-80\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/formidable/wordpress-formidable-forms-plugin-6-7-content-injection-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "WordPress"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "Formidable Forms"
+    ],
+    "component_version": [
+      "<= 6.7"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505342,
+    "cve_id": "CVE-2024-24715",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T10:15:22.970000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Validation of Specified Quantity in Input vulnerability in The Events Calendar BookIt allows Manipulating Hidden Fields.This issue affects BookIt: from n/a through 2.4.0.",
+    "cvss_score_v3": 6.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-1284\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/bookit/wordpress-wordpress-bookit-plugin-plugin-2-4-0-price-bypass-vulnerability-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "BookIt Plugin"
+    ],
+    "component_version": [
+      "<= 2.4.0"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 505343,
+    "cve_id": "CVE-2024-24869",
+    "source_identifier": "audit@patchstack.com",
+    "published": "2024-05-17T10:15:23.480000+01:00",
+    "last_modified": "2024-05-17T19:36:05.263000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in BoldGrid Total Upkeep allows Relative Path Traversal.This issue affects Total Upkeep: from n/a through 1.15.8.",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"audit@patchstack.com\", \"type\": \"Primary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-22\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://patchstack.com/database/vulnerability/boldgrid-backup/wordpress-total-upkeep-plugin-1-15-8-arbitrary-file-download-vulnerability?_s_id=cve\", \"source\": \"audit@patchstack.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Total Upkeep"
+    ],
+    "component_version": [
+      "<= 1.15.8"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504160,
+    "cve_id": "CVE-2024-27813",
+    "source_identifier": "product-security@apple.com",
+    "published": "2024-05-14T16:13:04.600000+01:00",
+    "last_modified": "2024-07-03T02:50:56.220000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "The issue was addressed with improved checks. This issue is fixed in macOS Sonoma 14.5. An app may be able to execute arbitrary code out of its sandbox or with certain elevated privileges.",
+    "cvss_score_v3": 5.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"http://seclists.org/fulldisclosure/2024/May/12\", \"source\": \"product-security@apple.com\"}, {\"url\": \"https://support.apple.com/en-us/HT214106\", \"source\": \"product-security@apple.com\"}, {\"url\": \"https://support.apple.com/kb/HT214106\", \"source\": \"product-security@apple.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": "macOS",
+    "os_version": [
+      "Sonoma 14.5"
+    ],
+    "component_name": "PrintCenter",
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504181,
+    "cve_id": "CVE-2024-28279",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:14:18.757000+01:00",
+    "last_modified": "2024-07-03T02:51:33.390000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Code-projects Computer Book Store 1.0 is vulnerable to SQL Injection via book.php?bookisbn=.",
+    "cvss_score_v3": 7.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-89\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://code-projects.org/computer-book-store-in-php-with-source-code/\", \"source\": \"cve@mitre.org\"}, {\"url\": \"https://github.com/unrealjbr/CVE-2024-28279\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Computer Book Store"
+    ],
+    "component_version": [
+      "1.0"
+    ],
+    "side": "server"
+  },
+  {
+    "id": 504182,
+    "cve_id": "CVE-2024-28285",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:14:19.427000+01:00",
+    "last_modified": "2024-08-29T21:36:34.603000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A Fault Injection vulnerability in the SymmetricDecrypt function in cryptopp/elgamal.h of Cryptopp Crypto++ 8.9, allows an attacker to co-reside in the same system with a victim process to disclose information and escalate privileges.",
+    "cvss_score_v3": 9.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-209\"}, {\"lang\": \"en\", \"value\": \"CWE-285\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://gist.github.com/liang-junkai/3e91f58070812ea76c1b8c126c3e28c7\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": null,
+    "os_version": null,
+    "component_name": [
+      "Cryptopp Crypto++"
+    ],
+    "component_version": [
+      "8.9"
+    ],
+    "side": "both"
+  },
+  {
+    "id": 504183,
+    "cve_id": "CVE-2024-28759",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:14:40.230000+01:00",
+    "last_modified": "2024-05-14T17:13:02.773000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A crafted network packet may cause a buffer overrun in Wind River VxWorks 7 through 23.09.",
+    "cvss_score_v3": 4.3,
+    "cvss_vector_v3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://support2.windriver.com/index.php?page=cve&on=view&id=CVE-2024-28759\", \"source\": \"cve@mitre.org\"}, {\"url\": \"https://windriver.com\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "VxWorks"
+    ],
+    "os_version": [
+      "7",
+      "23.09"
+    ],
+    "component_name": [
+      "DHCP client"
+    ],
+    "component_version": [
+      "null"
+    ],
+    "side": "client"
+  },
+  {
+    "id": 504269,
+    "cve_id": "CVE-2024-32736",
+    "source_identifier": "vulnreport@tenable.com",
+    "published": "2024-05-14T16:37:03.870000+01:00",
+    "last_modified": "2024-05-14T17:12:23.490000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "A sql injection vulnerability exists in CyberPower PowerPanel Enterprise prior to v2.8.3.\u00a0An unauthenticated remote attacker can leak sensitive information via the \"query_utask_verbose\" function within MCUDBHelper.\n",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://www.cyberpower.com/global/en/File/GetFileSampleByType?fileId=SU-18070002-07&fileSubType=FileReleaseNote\", \"source\": \"vulnreport@tenable.com\"}, {\"url\": \"https://www.tenable.com/security/research/tra-2024-14\", \"source\": \"vulnreport@tenable.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows",
+      "Linux"
+    ],
+    "os_version": [
+      "null"
+    ],
+    "component_name": [
+      "CyberPower PowerPanel Enterprise"
+    ],
+    "component_version": [
+      "< 2.8.3"
+    ],
+    "side": "server"
+  }
+]

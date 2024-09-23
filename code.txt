@@ -1,0 +1,13 @@
+def create_prompt_cve_analyst_uploaded_config(cve, description):
+    # Define the absolute path to the prompt file
+    base_dir = os.path.dirname(os.path.realpath(__file__))  # Gets the directory of the current file
+    file_path = os.path.join(base_dir, 'prompt_cve_uploaded_config.txt')
+
+    # Load the prompt from the text file
+    with open(file_path, 'r') as file:
+        template = file.read()
+
+    # Insert CVE and description into the template
+    prompt = template.format(cve=cve, description=description)
+    return prompt
+

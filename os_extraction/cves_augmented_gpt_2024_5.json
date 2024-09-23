@@ -1,0 +1,245 @@
+[
+  {
+    "id": 504350,
+    "cve_id": "CVE-2024-34338",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T16:38:39.337000+01:00",
+    "last_modified": "2024-07-03T02:59:54.407000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Tenda O3V2 with firmware versions V1.0.0.10 and V1.0.0.12 was discovered to contain a Blind Command Injection via dest parameter in /goform/getTraceroute. This vulnerability allows attackers to execute arbitrary commands with root privileges. Authentication is required to exploit this vulnerability.",
+    "cvss_score_v3": 7.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-77\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"http://exzettabyte.me/blind-command-injection-in-tenda-o3v2\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Linux"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504752,
+    "cve_id": "CVE-2024-35011",
+    "source_identifier": "cve@mitre.org",
+    "published": "2024-05-14T17:17:30.987000+01:00",
+    "last_modified": "2024-08-19T18:35:16.943000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "idccms v1.35 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /admin/infoType_deal.php?mudi=rev&nohrefStr=close.",
+    "cvss_score_v3": 5.4,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"134c704f-9b21-4f2e-91b3-4a467353bcc0\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-352\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://github.com/Thirtypenny77/cms/blob/main/8.md\", \"source\": \"cve@mitre.org\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Linux",
+      "Windows",
+      "macOS"
+    ],
+    "os_version": null ,
+    "score" : 1
+  },
+  {
+    "id": 504815,
+    "cve_id": "CVE-2024-30021",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:54.090000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Mobile Broadband Driver Remote Code Execution Vulnerability",
+    "cvss_score_v3": 6.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-190\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30021\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "Windows Mobile"
+    ],
+    "score" : 1
+  },
+  {
+    "id": 504816,
+    "cve_id": "CVE-2024-30022",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:55.400000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-197\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30022\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504817,
+    "cve_id": "CVE-2024-30023",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:56.520000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-197\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30023\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": [
+      "Windows Server 2019",
+      "Windows Server 2022",
+      "Windows 10",
+      "Windows 11"
+    ],
+    "score" : 1
+  },
+  {
+    "id": 504819,
+    "cve_id": "CVE-2024-30025",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:58.513000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Common Log File System Driver Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-125\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30025\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504820,
+    "cve_id": "CVE-2024-30027",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:16:59.450000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "NTFS Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-415\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30027\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504821,
+    "cve_id": "CVE-2024-30028",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:00.503000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Win32k Elevation of Privilege Vulnerability",
+    "cvss_score_v3": 7.8,
+    "cvss_vector_v3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-416\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30028\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504822,
+    "cve_id": "CVE-2024-30029",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:01.497000+01:00",
+    "last_modified": "2024-05-14T20:17:55.627000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.5,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-197\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30029\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows"
+    ],
+    "os_version": null,
+    "score" : 1
+  },
+  {
+    "id": 504837,
+    "cve_id": "CVE-2024-30044",
+    "source_identifier": "secure@microsoft.com",
+    "published": "2024-05-14T18:17:16.107000+01:00",
+    "last_modified": "2024-05-15T18:15:12.200000+01:00",
+    "vuln_status": "Awaiting Analysis",
+    "description": "Microsoft SharePoint Server Remote Code Execution Vulnerability",
+    "cvss_score_v3": 7.2,
+    "cvss_vector_v3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+    "cvss_score_v2": 0.0,
+    "cvss_vector_v2": "",
+    "weaknesses": "[{\"source\": \"secure@microsoft.com\", \"type\": \"Secondary\", \"description\": [{\"lang\": \"en\", \"value\": \"CWE-502\"}]}]",
+    "configurations": "[]",
+    "references": "[{\"url\": \"https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-30044\", \"source\": \"secure@microsoft.com\"}]",
+    "analyzed": false,
+    "advisory_contents": " ",
+    "os_name": [
+      "Windows Server"
+    ],
+    "os_version": [
+      "2016",
+      "2019",
+      "2022"
+    ],
+    "score" : 1
+  }
+]
